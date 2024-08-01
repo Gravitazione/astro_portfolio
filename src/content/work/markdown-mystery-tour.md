@@ -1,35 +1,51 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+title: RMUTT Metaverse
+publishDate: 2023-12-01 00:00:00
+img: /assets/images/works/rmutt.png
+img_alt: Girl 3D model character in a showroom.
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  RMUTT Metaverse is a website for an online classroom with 3D model characters navigating through a virtual classroom. It includes various systems to support online learning.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Development
 ---
 
-## Level-two heading
+### Overview of RMUTT Metaverse
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> Virtual classroom with 3D model characters
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+RMUTT Metaverse is a website for online learning that features 3D characters within classrooms, which are divided into different classes. It includes various RTC systems such as screen sharing, camera and microphone activation, and chat functionality, as well as the display of different gestures.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+Additionally, there is a VR360 section that serves as a guide to important areas of the university, such as various academic buildings.
 
-### Level-three heading
+### Key Features
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+The main feature is the division of classrooms for real-time online learning, including text chat, voice chat, video from participants, screen sharing, and control of 3D characters.
 
-### Level-three heading
+There is a room for displaying student work, with usage permissions divided between students and teachers. For example, the UI for editing and updating information is different.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+There is also a VR360 feature for introducing important areas of the university, allowing users to get to know and familiarize themselves with each area in a VR format on the website.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+### Core Concepts
 
-#### Level-four heading
+RMUTT Metaverse is an innovative web application designed for online learning. It incorporates 3D characters navigating through virtual classrooms, providing an immersive and interactive educational experience.
 
-- We noted this
-- And also this other point
+##### Real-Time Online Learning
+
+The platform divides classrooms for real-time online learning, equipped with various RTC (Real-Time Communication) systems such as:
+- **Text Chat:** Enables students and teachers to communicate via text.
+- **Voice Chat:** Facilitates audio communication within the classroom.
+- **Video Chat:** Allows participants to use their cameras during sessions.
+- **Screen Sharing:** Supports sharing of screens for presentations and collaborative work.
+- **3D Character Control:** Lets users control 3D characters, enhancing the interactive experience.
+
+##### VR360 Campus Tour
+
+RMUTT Metaverse includes a VR360 feature that serves as a virtual tour guide, showcasing important areas of the university such as academic buildings. This helps users become familiar with the campus through an engaging VR format available on the website.
+
+##### Display of Student Work
+
+The platform provides a dedicated room for displaying student work. Usage permissions are divided between students and teachers, ensuring proper access control. For instance, the user interface for editing and updating information is tailored differently for students and teachers.
+
+##### User Interface and Access Control
+
+The application features distinct user interfaces and access permissions for students and teachers. This differentiation ensures that each user group has the appropriate tools and controls needed for their respective roles, such as editing and updating information.
