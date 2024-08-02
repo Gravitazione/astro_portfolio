@@ -7,11 +7,13 @@ description: |
   RMUTT Metaverse is a website for an online classroom with 3D model characters navigating through a virtual classroom. It includes various systems to support online learning.
 tags:
   - Development
+  - 3D Website
+  - VR Website
 ---
 
 ### Overview of RMUTT Metaverse
 
-> Virtual classroom with 3D model characters
+> ###### Virtual classroom with 3D model characters
 
 RMUTT Metaverse is a website for online learning that features 3D characters within classrooms, which are divided into different classes. It includes various RTC systems such as screen sharing, camera and microphone activation, and chat functionality, as well as the display of different gestures.
 
