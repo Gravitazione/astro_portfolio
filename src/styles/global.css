@@ -253,3 +253,17 @@ h5 {
 		gap: 12rem;
 	}
 }
+
+.images-about {
+	aspect-ratio: 15/8;
+	object-fit: cover;
+	object-position: center;
+}
+
+.pt-4 {
+	padding-top: 1rem;
+}
+
+.font-bold {
+	font-weight: 700;
+}
