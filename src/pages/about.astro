@@ -1,120 +1,232 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/images/stocks/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
+<BaseLayout
+  title="About | Sasipas Chinjatupornpong"
+  description="About Sasipas"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="About"
+        tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+      >
+        <img
+          width="1553"
+          height="873"
+          class="images-about"
+          src="/assets/images/stocks/profile-background.png"
+          alt="Sasipas Chinjatupornpong with walkpath in Thailand"
+        />
+      </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
-		</main>
-
-		<ContactCTA />
-	</div>
+      <section>
+        <h2 class="section-title">Background</h2>
+        <div class="content">
+          <p class="">
+            I work as a software developer with a strong interest in learning
+            about frontend, backend, and all available platforms. My previous
+            work includes:
+          </p>
+          <ul class="">
+            <li>
+              <span class="font-bold">Game Development:</span> Creating interactive
+              and engaging games.
+            </li>
+            <li>
+              <span class="font-bold">Virtual Tours:</span> Designing immersive virtual
+              tour experiences.
+            </li>
+            <li>
+              <span class="font-bold">3D Websites:</span> Developing visually appealing
+              3D websites.
+            </li>
+            <li>
+              <span class="font-bold">Augmented Reality (AR) on Websites:</span>
+              Implementing AR features on websites to enhance user experience.
+            </li>
+            <li>
+              <span class="font-bold">Virtual Reality (VR) on Websites:</span>
+              Integrating VR elements into websites for immersive interactions.
+            </li>
+            <li>
+              <span class="font-bold">CRM Systems:</span>
+              Building, development and optimizing customer relationship management
+              systems.
+            </li>
+            <li>
+              <span class="font-bold">Financial Technology:</span>
+              Developing software solutions for financial applications.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <p>
+            I hold a Bachelor's degree in Multimedia Game Computer from Rangsit
+            University, where I studied game creation and development. My
+            coursework covered various processes involved in game development,
+            including:
+          </p>
+          <ul class="">
+            <li>
+              <span class="font-bold">Development:</span> Learning programming and
+              development techniques for creating games.
+            </li>
+            <li>
+              <span class="font-bold">Art (2D and 3D):</span> Understanding the artistic
+              aspects of game design, including creating 2D and 3D art for games.
+            </li>
+            <li>
+              <span class="font-bold">Optimization:</span> Gaining skills in optimizing
+              games to ensure they run efficiently on different platforms. 3D websites.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="content">
+          <p>I have proficiency in the following technologies:</p>
+          <ul class="">
+            <li>
+              <span class="font-bold">Frontend Frameworks:</span> React, Vue, Next,
+              Nuxt, Astro
+            </li>
+            <li>
+              <span class="font-bold">Backend Frameworks:</span> Node, Express
+            </li>
+            <li>
+              <span class="font-bold">Programming Languages:</span> C#, JavaScript
+              (JS), TypeScript (TS)
+            </li>
+            <li>
+              <span class="font-bold">Markup Languages:</span> HTML, Markdown
+            </li>
+            <li>
+              <span class="font-bold">UI Libraries:</span> Tailwind CSS, Daisy UI,
+              Ant Design, MUI
+            </li>
+            <li>
+              <span class="font-bold">Development Tools:</span> Storybook, Vitest,
+              Jest
+            </li>
+            <li>
+              <span class="font-bold">State Management:</span> Zustand, Redux Toolkit,
+              Jotai, Pinia
+            </li>
+            <li>
+              <span class="font-bold">Databases:</span> PostgreSQL, MSSQL
+            </li>
+            <li>
+              <span class="font-bold">Version Control and Deployment:</span> Git,
+              Cloudflare, Firebase, Docker
+            </li>
+            <li>
+              <span class="font-bold">Cloud Services:</span> Azure Services, Vercel,
+              Netlify
+            </li>
+            <li>
+              <span class="font-bold">Graphics and Game Development:</span> Three
+              JS, Unity, Figma
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Hobbies and Interests</h2>
+        <div class="content">
+          <p>Outside of my professional work, I enjoy:</p>
+          <ul class="">
+            <li>
+              <span class="font-bold"
+                >Exploring New Technologies and Programming Languages:</span
+              > Keeping up with the latest advancements and expanding my skill set.
+            </li>
+            <li>
+              <span class="font-bold">Reading:</span> Enjoying a variety of books
+              across different genres.
+            </li>
+            <li>
+              <span class="font-bold">Music:</span> Listening to diverse genres and
+              discovering new artists.
+            </li>
+            <li>
+              <span class="font-bold">Coffee Dripping:</span> Experimenting with
+              coffee brewing techniques and enjoying a well-crafted cup of coffee.
+            </li>
+            <li>
+              <span class="font-bold">Gaming:</span> Playing and analyzing different
+              types of games.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content {
+    grid-column: 2 / 4;
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>
