@@ -1,6 +1,6 @@
 ---
 title: Modernform CRM
-publishDate: 2023-04-01 00:00:00
+publishDate: 2023-06-01 00:00:00
 img: /assets/images/works/modernform.png
 img_alt: Web application for a CRM system. It is a client side application.
 description: |
